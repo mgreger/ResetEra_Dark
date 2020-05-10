@@ -1,4 +1,4 @@
-# ResetEra_Dark
+# ResetEra (Dark)
 A custom dark theme for ResetEra. Requires the normal site dark theme to be enabled to get desired effect.
 
 ## Preview
