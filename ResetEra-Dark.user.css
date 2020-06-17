@@ -433,7 +433,8 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
         box-shadow: unset;
         border-radius: unset;
     }
-    .blockMessage.blockMessage--error {
+    .blockMessage.blockMessage--error,
+    .blockMessage.blockMessage--important {
         border-left: 2px solid #7d51b8;
         background: #2f343d;
         color: #CCCCCC;
