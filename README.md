@@ -3,7 +3,8 @@ A custom dark theme for ResetEra. Requires the normal site dark theme to be enab
 ## Updates
 ### 07/30/2020
 * Added font-family customization, change default back to site default to fix issues with Firefox.
-* Can be changed back by changing "Thread Font Family" to "Helvetica" if your browser supports it.
+* Can be changed back by changing "Font Family" to "Helvetica" if your browser supports it.
+* Added font size option for threads.
 ### 07/29/2020
 * Added new toggle "Hide Thread Labels", allows the removal of new thread labels (News/Official Thread/Spoilers/etc...)
 * Modified colors of "Official Thread" label
