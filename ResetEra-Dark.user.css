@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/ResetEra_Dark
 @supportURL     https://github.com/mgreger/ResetEra_Dark/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/ResetEra_Dark/master/ResetEra-Dark.user.css
-@version        1.4.5
+@version        1.5.0
 @description    A custom dark theme for ResetEra. Must switch the default Era theme to Dark before applying.
 @author         mgreger
 @license        CC0-1.0
@@ -244,7 +244,7 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
 }`
 }
 @var select hideThreadLabels "Hide Thread Labels?" {
-    "Show": "",
+    "Show*": "",
     "Hide": `a.labelLink {
     display: none;
 }`
@@ -270,6 +270,8 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
     "No*": "-1px"
 }
 @var color highlightColor "User Highlight Color" #003232
+@var text threadFont "Thread Font Family" roboto,-apple-system,BlinkMacSystemFont,segoe ui,oxygen,ubuntu,cantarell,fira sans,droid sans,helvetica neue,sans-serif
+
 ==/UserStyle== */
 
 @-moz-document domain("resetera.com") {
@@ -627,7 +629,7 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
     }
     .message-body {
     color: #CCCCCC !important;
-    /*font-family: helvetica;*/
+    font-family: /*[[threadFont]]*/;
     font-size: 13px;
     }
     .message-userArrow {
