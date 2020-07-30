@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/ResetEra_Dark
 @supportURL     https://github.com/mgreger/ResetEra_Dark/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/ResetEra_Dark/master/ResetEra-Dark.user.css
-@version        1.5.1
+@version        1.5.5
 @description    A custom dark theme for ResetEra. Must switch the default Era theme to Dark before applying.
 @author         mgreger
 @license        CC0-1.0
@@ -270,8 +270,15 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
     "No*": "-1px"
 }
 @var color highlightColor "User Highlight Color" #003232
-@var text threadFont "Thread Font Family" roboto,-apple-system,BlinkMacSystemFont,segoe ui,oxygen,ubuntu,cantarell,fira sans,droid sans,helvetica neue,sans-serif
-
+@var select threadFont "Font Family" {
+    "Default*": "roboto,-apple-system,BlinkMacSystemFont,segoe ui,oxygen,ubuntu,cantarell,fira sans,droid sans,helvetica neue,sans-serif",
+    "Helvetica": "Helvetica",
+    "Arial": "Arial",
+    "Roboto": "Roboto",
+    "Verdana": "Verdana",
+    "Calibri": "Calibri",
+    "Geneva": "Geneva"
+}
 ==/UserStyle== */
 
 @-moz-document domain("resetera.com") {
