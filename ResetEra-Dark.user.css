@@ -627,7 +627,7 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
     }
     .message-body {
     color: #CCCCCC !important;
-    font-family: Helvetica;
+    font-family: helvetica,roboto,-apple-system,BlinkMacSystemFont,segoe ui,oxygen,ubuntu,cantarell,fira sans,droid sans,sans-serif;
     font-size: 13px;
     }
     .message-userArrow {
