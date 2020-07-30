@@ -7,8 +7,8 @@ A custom dark theme for ResetEra. Requires the normal site dark theme to be enab
 ## Preview
 ![ResetEra Preview](https://raw.githubusercontent.com/mgreger/ResetEra_Dark/master/Images/resetera-dark(preview).PNG)
 ![ResetEra Settings](https://raw.githubusercontent.com/mgreger/ResetEra_Dark/master/Images/resetera-dark(settings).PNG)
-
-## Installation
+![ResetEra Updates](https://raw.githubusercontent.com/mgreger/ResetEra_Dark/master/Images/resetera-dark(updates).PNG)
+## Installation & Updating
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-285959.svg)](https://raw.githubusercontent.com/mgreger/ResetEra_Dark/master/ResetEra-Dark.user.css)
 
