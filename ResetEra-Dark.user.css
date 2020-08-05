@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/ResetEra_Dark
 @supportURL     https://github.com/mgreger/ResetEra_Dark/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/ResetEra_Dark/master/ResetEra-Dark.user.css
-@version        1.6.1
+@version        1.6.2
 @description    A custom dark theme for ResetEra. Must switch the default Era theme to Dark before applying.
 @author         mgreger
 @license        CC0-1.0
@@ -246,6 +246,9 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
 @var select hideThreadLabels "Hide Thread Labels?" {
     "Show*": "",
     "Hide": `a.labelLink {
+    display: none;
+}
+.structItem-parts>li:before {
     display: none;
 }`
 }
