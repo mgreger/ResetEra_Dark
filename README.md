@@ -1,6 +1,8 @@
 # ResetEra (Dark)
 A custom dark theme for ResetEra. Requires the normal site dark theme to be enabled to get desired effect.
 ## Updates
+### 09/03/2020
+* Couple tweaks to the new voting system 
 ### 07/30/2020
 * Added font-family customization, change default back to site default to fix issues with Firefox.
 * Can be changed back by changing "Font Family" to "Helvetica" if your browser supports it.
