@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/ResetEra_Dark
 @supportURL     https://github.com/mgreger/ResetEra_Dark/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/ResetEra_Dark/master/ResetEra-Dark.user.css
-@version        1.6.4
+@version        1.6.5
 @description    A custom dark theme for ResetEra. Must switch the default Era theme to Dark before applying.
 @author         mgreger
 @license        CC0-1.0
@@ -603,6 +603,10 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
     .message-cell.message-cell--alert {
     background: unset;
     color: #CCCCCC;
+    }
+    article.message.sticky-container .message-cell--user {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     }
     .block--messages .message+.message:nth-child(even) {
     background-color: rgb(40, 40, 40);
