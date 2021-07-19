@@ -83,25 +83,25 @@ div.p-header-logo ~ div.buttonGroup-buttonWrapper > div.menu > div.menu-content 
     padding: 0px !important;
 }
 div.p-header-logo ~ div.buttonGroup-buttonWrapper > div.menu > div.menu-content > a.menu-linkRow:nth-child(1):before {
-    content: '\F297';
+    content: '\F0297';
 }
 div.p-header-logo ~ div.buttonGroup-buttonWrapper > div.menu > div.menu-content > a.menu-linkRow:nth-child(2):before {
-    content: '\F2CE';
+    content: '\F02CE';
 }
 div.p-header-logo ~ div.buttonGroup-buttonWrapper > div.menu > div.menu-content > a.menu-linkRow:nth-child(3):before {
-    content: '\FB55';
+    content: '\F0B55';
 }
 div.p-header-logo ~ div.buttonGroup-buttonWrapper > div.menu > div.menu-content > a.menu-linkRow:nth-child(4):before {
-    content: '\F848';
+    content: '\F0848';
 }
 div.p-header-logo ~ div.buttonGroup-buttonWrapper > div.menu > div.menu-content > a.menu-linkRow:nth-child(5):before {
-    content: '\F535';
+    content: '\F0535';
 }
 div.p-header-logo ~ div.buttonGroup-buttonWrapper > div.menu > div.menu-content > a.menu-linkRow:nth-child(6):before {
-    content: '\F821';
+    content: '\F0821';
 }
 div.p-header-logo ~ div.buttonGroup-buttonWrapper > div.menu > div.menu-content > a.menu-linkRow:nth-child(7):before {
-    content: '\F6CF';
+    content: '\F06CF';
 }
 div.p-header-logo ~ div.buttonGroup-buttonWrapper > div.menu > div.menu-content > a.menu-linkRow:hover:before {
     color: #7d51b8 !important;
