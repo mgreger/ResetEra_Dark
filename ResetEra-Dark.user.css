@@ -89,19 +89,19 @@ div.p-header-logo ~ div.buttonGroup-buttonWrapper > div.menu > div.menu-content 
     content: '\F02CE';
 }
 div.p-header-logo ~ div.buttonGroup-buttonWrapper > div.menu > div.menu-content > a.menu-linkRow:nth-child(3):before {
-    content: '\F0B55';
+    content: '\F0B79';
 }
 div.p-header-logo ~ div.buttonGroup-buttonWrapper > div.menu > div.menu-content > a.menu-linkRow:nth-child(4):before {
-    content: '\F0848';
+    content: '\F0849';
 }
 div.p-header-logo ~ div.buttonGroup-buttonWrapper > div.menu > div.menu-content > a.menu-linkRow:nth-child(5):before {
     content: '\F0535';
 }
 div.p-header-logo ~ div.buttonGroup-buttonWrapper > div.menu > div.menu-content > a.menu-linkRow:nth-child(6):before {
-    content: '\F0821';
+    content: '\F0181';
 }
 div.p-header-logo ~ div.buttonGroup-buttonWrapper > div.menu > div.menu-content > a.menu-linkRow:nth-child(7):before {
-    content: '\F06CF';
+    content: '\F06D0';
 }
 div.p-header-logo ~ div.buttonGroup-buttonWrapper > div.menu > div.menu-content > a.menu-linkRow:hover:before {
     color: #7d51b8 !important;
