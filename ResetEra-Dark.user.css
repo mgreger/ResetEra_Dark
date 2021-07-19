@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/ResetEra_Dark
 @supportURL     https://github.com/mgreger/ResetEra_Dark/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/ResetEra_Dark/master/ResetEra-Dark.user.css
-@version        1.7.5
+@version        1.7.6
 @description    A custom dark theme for ResetEra. Must switch the default Era theme to Dark before applying.
 @author         mgreger
 @license        CC0-1.0
@@ -740,6 +740,10 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
     padding: 6px 0;
     }
     /* Banned/warned note */
+    .comment-content .messageNotice:before, .messageNotice:before {
+        color: #000000;
+        padding-left: 10px;
+    }
     .messageNotice {
     background: #7d51b8;
     color: #000000;
