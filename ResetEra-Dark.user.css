@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/ResetEra_Dark
 @supportURL     https://github.com/mgreger/ResetEra_Dark/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/ResetEra_Dark/master/ResetEra-Dark.user.css
-@version        1.7.1
+@version        1.7.2
 @description    A custom dark theme for ResetEra. Must switch the default Era theme to Dark before applying.
 @author         mgreger
 @license        CC0-1.0
@@ -247,15 +247,6 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
     display: none;
 }`
 }
-@var select hideThreadLabels "Hide Thread Labels?" {
-    "Show*": "",
-    "Hide": `a.labelLink {
-    display: none;
-}
-.structItem-parts>li:before {
-    display: none;
-}`
-}
 @var select quotesOption "Always Expand Quotes" {
     "Always Expand*": `.bbCodeBlock--expandable .bbCodeBlock-expandContent {
     max-height: none;
@@ -299,7 +290,6 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
     /*[[bannerDisplay]]*/
     /*[[postedIcon]]*/
     /*[[hideAvatars]]*/
-    /*[[hideThreadLabels]]*/
     /*[[quotesOption]]*/
     /*[[navButtons]]*/
     /* END CUSTOM USERSTYLE OPTIONS */
