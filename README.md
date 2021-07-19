@@ -1,6 +1,9 @@
 # ResetEra (Dark)
 A custom dark theme for ResetEra. Requires the normal site dark theme to be enabled to get desired effect.
 ## Updates
+### 07/19/2021
+* Updated style to accommodate recent site changes.
+* REMOVED: "Hide Thread Labels?" toggle-- this is natively built into the site now, if you wish to hide or change the position of these labels you can do so under user preferences.
 ### 09/03/2020
 * Couple tweaks to the new voting system 
 ### 07/30/2020
