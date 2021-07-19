@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/ResetEra_Dark
 @supportURL     https://github.com/mgreger/ResetEra_Dark/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/ResetEra_Dark/master/ResetEra-Dark.user.css
-@version        1.7.0
+@version        1.7.1
 @description    A custom dark theme for ResetEra. Must switch the default Era theme to Dark before applying.
 @author         mgreger
 @license        CC0-1.0
@@ -71,6 +71,7 @@ a#uix_widthToggle--trigger {
 div.p-header-logo ~ div.buttonGroup-buttonWrapper > div.menu > div.menu-content {
     display: inline !important;
     background: none !important;
+    border-color: #252628;
 }
 div.p-header-logo ~ div.buttonGroup-buttonWrapper > div.menu > div.menu-content > a.menu-linkRow {
     display: inline-block !important;
@@ -729,6 +730,7 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
     .listInline .u-concealed,
     .listInline .u-concealed:visited {
     color: #FFFFFF !important;
+        font-size: 12px;
     }
 
     /* Locked note */
