@@ -618,11 +618,8 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
     .block--messages .message+.message:nth-child(even) {
     background-color: rgb(40, 40, 40);
     }
-    .block--messages .message+.message:nth-child(odd) {
+    .block--messages .message:nth-child(odd) {
     background: rgb(34, 34, 34);
-    }
-    .message-threadStarterPost {
-    background: rgb(34, 34, 34) !important;
     }
     .userBanner strong,
     .message-lastEdit,
