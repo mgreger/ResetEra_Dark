@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/ResetEra_Dark
 @supportURL     https://github.com/mgreger/ResetEra_Dark/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/ResetEra_Dark/master/ResetEra-Dark.user.css
-@version        1.7.2
+@version        1.7.3
 @description    A custom dark theme for ResetEra. Must switch the default Era theme to Dark before applying.
 @author         mgreger
 @license        CC0-1.0
@@ -722,7 +722,11 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
     color: #FFFFFF !important;
         font-size: 12px;
     }
-
+    /* Message box */
+    .input:focus, .input.is-focused, .inputGroup:focus-within, #XF .fr-box.fr-basic.is-focused, .codeEditor.CodeMirror.CodeMirror-focused {
+        --input-border-heavy: #9e9fa21f;
+        --input-border-light: #9e9fa21f;
+    }
     /* Locked note */
     .blockStatus {
     background: #222222;
