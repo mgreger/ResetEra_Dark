@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/ResetEra_Dark
 @supportURL     https://github.com/mgreger/ResetEra_Dark/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/ResetEra_Dark/master/ResetEra-Dark.user.css
-@version        1.6.6
+@version        1.6.7
 @description    A custom dark theme for ResetEra. Must switch the default Era theme to Dark before applying.
 @author         mgreger
 @license        CC0-1.0
@@ -184,7 +184,7 @@ div.p-header-logo ~ div.buttonGroup-buttonWrapper > button.menuTrigger {
     background-color: transparent !important;
 }
 .structItem-cell.structItem-cell--icon {
-    width: 33px;
+    width: 39px;
 }
 .structItem-iconContainer > .avatar img:not(.cropImage),
 .structItem .lastPostAv {
@@ -208,6 +208,9 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
 }`,
     "Border Highlight (Minimal)": `.structItem-cell.structItem-cell--icon {
      display: none;
+}
+.structItem-cell--icon+.structItem-cell--main, .structItem-cell--icon+.structItem-cell--newThread {
+    padding-left: 7px;
 }
 .structItemContainer-group--sticky .structItem--thread {
      border-left: unset;
@@ -588,7 +591,7 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
     /* THREAD VIEW */
     .block--messages .message+.message, .js-quickReply .message+.message, .block--messages .block-row+.message, .js-quickReply .block-row+.message, .block--messages .message+.block-row, .js-quickReply .message+.block-row, .block--messages .block-row+.block-row, .js-quickReply .block-row+.block-row,
     body .p-body-pageContent .message {
-    margin-top: /*[[postGaps]]*/;
+    margin-top: /*[[postGaps]]*/ !important;
     border: 1px solid rgb(51, 51, 51);
     background: rgb(34, 34, 34);
     }
@@ -612,7 +615,8 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
     .block--messages .message+.message:nth-child(even) {
     background-color: rgb(40, 40, 40);
     }
-    .block--messages .message+.message:nth-child(odd) {
+    .block--messages .message+.message:nth-child(odd),
+    .message-threadStarterPost  {
     background: rgb(34, 34, 34);
     }
     .userBanner strong,
