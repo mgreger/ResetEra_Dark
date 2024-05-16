@@ -658,6 +658,9 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
     .message-attribution {
     padding-bottom: 8px;
     }
+    .message.nf-gifted {
+    border-bottom: 3px solid #fbb829 !important;
+    }
     .tooltip--basic .tooltip-content {
     background: rgb(47, 52, 61);
     color: #CCCCCC;
