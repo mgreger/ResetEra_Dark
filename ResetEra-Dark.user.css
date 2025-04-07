@@ -942,7 +942,8 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
     .block-tabHeader .tabs-tab,
     a.tabs-tab:visited,
     a.contentRow-title:visited,
-    .notice.notice--accent a:not(.button--notice) {
+    .notice.notice--accent a:not(.button--notice),
+    .filterBar-filterToggle:visited {
     color: #a3a6c1;
     }
     a:hover,
