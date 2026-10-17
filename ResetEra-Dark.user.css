@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/mgreger/ResetEra_Dark
 @supportURL     https://github.com/mgreger/ResetEra_Dark/issues
 @updateURL      https://raw.githubusercontent.com/mgreger/ResetEra_Dark/master/ResetEra-Dark.user.css
-@version        1.8.2
+@version        1.8.3
 @description    A custom dark theme for ResetEra. Must switch the default Era theme to Dark before applying.
 @author         mgreger
 @license        CC0-1.0
@@ -729,7 +729,6 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
     .listInline .u-concealed:visited {
         color: #FFFFFF;
         font-size: 12px;
-        color: #FFFFFF;
     }
     .message-attribution-main .u-concealed {
        color: #6e7072 !important;
