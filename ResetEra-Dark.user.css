@@ -590,7 +590,7 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
 
     /* THREAD VIEW */
     .block--messages .message+.message, .js-quickReply .message+.message, .block--messages .block-row+.message, .js-quickReply .block-row+.message, .block--messages .message+.block-row, .js-quickReply .message+.block-row, .block--messages .block-row+.block-row, .js-quickReply .block-row+.block-row,
-    body .p-body-pageContent .message {
+    body .p-body-pageContent .message, .block--messages.block .message {
     margin-top: /*[[postGaps]]*/ !important;
     border: 1px solid rgb(51, 51, 51);
     background: rgb(34, 34, 34);
@@ -612,7 +612,7 @@ form.structItem > .structItem-cell.structItem-cell--icon > .structItem-iconConta
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     }
-    .block--messages .message+.message:nth-child(even) {
+    .block--messages .message+.message:nth-child(even), .block--messages.block .message:first-child {
     background-color: rgb(40, 40, 40);
     }
     .block--messages .message:nth-child(odd) {
